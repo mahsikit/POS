@@ -10,7 +10,7 @@ public class Connect {
 	public Connect() {
 		try {
 
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/uasbad", "root", "");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/YOUR_DATABASE", "YOUR_USERNAME", "YOUR_PASSWORD");
 			statement = connection.createStatement();
 
 		} catch (Exception e) {
